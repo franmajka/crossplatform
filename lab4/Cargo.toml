@@ -1,14 +1,8 @@
 [package]
-name = "lab3"
+name = "lab4"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-libc="*"
-
-[lib]
-name="lab3"
-path = "src/lib.rs"
-crate-type = ["dylib"]
